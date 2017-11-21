@@ -4,12 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style type="text/css">
-		td{
+		thead{
 			text-align: center;
-			color: red;
+			color: blue;
+		}
+		tbody{
+			text-align: center;
+			color: green;
+		}
+		tfoot{
+			text-align: center;
+			color: yellow;
 		}
 		caption{
-			color: blue;
+			color: red;
 		}
 	</style>
 </head>
@@ -62,8 +70,8 @@
 	      		<td>长春大学</td>
 	      	</tr>
 	      </table>   
-	      <table border="1">
-	      	<caption>学生列表</caption>
+	      <table border="1" width="500">
+	      	<caption align="top">学生列表</caption>
 	      	<thead>
 	      		<td>姓名</td>
 	      		<td>年龄</td>
@@ -102,7 +110,7 @@
 	      	</tbody>
 	      	<tfoot>
 	      		<tr>
-	      			<td>统计</td>
+	      			<td colspan="5" bgcolor="blue">统计表</td>
 	      		</tr>
 	      	</tfoot>
 
