@@ -1,0 +1,21 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-22 09:22:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-22 09:22:50
+*/
+		thead{
+			text-align: center;
+			color: blue;
+		}
+		tbody{
+			text-align: center;
+			color: green;
+		}
+		tfoot{
+			text-align: center;
+			color: yellow;
+		}
+		caption{
+			color: red;
+		}
