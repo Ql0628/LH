@@ -34,7 +34,27 @@
 			background: url('背景图1.jpg') no-repeat;
 			width:100%;
 			height:40%;  
-    		background-size:100%100%; 
+    		background-size:100%100%;
+
+		}
+		table{
+			border-spacing: 0;
+		}
+		.box input{ 
+			border-radius: 6px ;
+		}
+		.box .btn:after{
+			border-radius:18px;
+		}
+		.bordered tr:last-child td:first-child{
+			-moz-border-radius: 0  0 0 6px ;
+			-webkit-border-radius:0  0 0 6px ;
+			border-radius: 0  0 0 6px ;
+		}
+		.bordered tr:last-child td:last-child{
+			-moz-border-radius:0 0 6px 0;
+			-webkit-border-radius:0 0 6px 0;
+			border-radius:0 0 6px 0;
 		}
 		.aaaa{
 				border-left:#ff9966 2px solid;/*左边框*/
@@ -83,7 +103,7 @@
 </head>
 <body>
 		<form method="get" action="#" >
-		<table border="1" align="center" width="50%"  cellspacing="0" cellpadding="0" class="aaaa">
+		<table border="1" align="center" width="65%"  cellspacing="0" cellpadding="0" class="aaaa">
 		<thead>
 		<tr class="q">
 			<td>姓名</td>			
@@ -96,7 +116,7 @@
 
 			</select>
 			<td>出生年月</td>
-			<td><input type="text" name="username">
+			<td><input type="date" name="username">
 				</td>
 			<td rowspan="4" align="center" id="e"><img src="1.jpg" width="80" height="80" align="center" >上传照片<input type="file" name="" ><br/>
 				</td>
@@ -145,7 +165,7 @@
 							</select>
 				</td>
 			<td>到岗时间</td>
-			<td><input type="text" name="username"></td>
+			<td><input type="date" name="username"></td>
 			<td>期望薪资</td>
 			<td><input type="text" name="username"></td>
 		</thead>
